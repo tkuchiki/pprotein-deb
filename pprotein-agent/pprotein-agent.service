@@ -1,0 +1,12 @@
+[Unit]
+Description=pprotein-agent is collecting logs and metrics for pprotein
+
+[Service]
+ExecStart=/usr/bin/pprotein-agent
+WorkingDirectory=/var/lib/pprotein
+Environment=PATH=$PATH
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target

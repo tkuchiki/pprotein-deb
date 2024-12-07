@@ -1,0 +1,12 @@
+[Unit]
+Description=Performance monitoring utilities for API server written in Go, works with pprof/fgprof/alp/slp
+
+[Service]
+ExecStart=/usr/bin/pprotein
+WorkingDirectory=/var/lib/pprotein
+Environment=PATH=$PATH
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,5 @@
+Package: pprotein-agent
+Maintainer: tkuchiki
+Architecture: arm64
+Version: 1.2.4-1
+Description: pprotein-agent is collecting logs and metrics for pprotein

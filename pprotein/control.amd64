@@ -1,0 +1,6 @@
+Package: pprotein
+Maintainer: tkuchiki
+Architecture: amd64
+Version: 1.2.4-1
+Description: Performance monitoring utilities for API server written in Go, works with pprof/fgprof/alp/slp
+Depends: graphviz, gv
